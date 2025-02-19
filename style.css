@@ -1,0 +1,10 @@
+* {
+    font-family: Roboto;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding:48px;
+    text-align: center;
+}
