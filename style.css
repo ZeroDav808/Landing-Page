@@ -1,10 +1,76 @@
 * {
-    font-family: Roboto;
+  font-family: Roboto;
 }
 
 footer {
-    background-color: #1F2937;
-    color: white;
-    padding:48px;
-    text-align: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 48px;
+  text-align: center;
+  margin: 0 auto;
 }
+
+header {
+  background-color: #1f2937;
+}
+
+.nav-container {
+  display: flex;
+  border: 3px solid red;
+  padding: 25px;
+  margin: 5px 150px 30px 150px;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  border: 3px solid red;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin: 5px 150px 30px 150px;
+}
+
+
+
+.nav-logo{
+  font-size: 24px;
+  color: #F9FAF8;
+  flex: 1;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+
+.info-text {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.info-image {
+  flex: 1;
+  background-color: gray;
+  text-align: center;
+  padding: 60px;
+  margin: 0;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin-bottom: 0;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+}
+
