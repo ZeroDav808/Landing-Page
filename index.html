@@ -12,40 +12,54 @@
   <body>
     <header>
       <nav class="nav-container">
-        <div class="item-1">Header Logo</div>
-        <div class="item-2">header link one</div>
-        <div class="item-3">header link two</div>
-        <div class="item-4">header link three</div>
+        <div class="nav-logo">Header Logo</div>
+        <div class="nav-links">
+          <div class="nav-link nav-link-one">header link one</div>
+          <div class="nav-link nav-link-two">header link two</div>
+          <div class="nav-link nav-link-three">header link three</div>
+        </div>
       </nav>
 
       <section class="info-container">
-        <div class="item-1">
-          <div class="header">
-            <div></div>
-            This website is awesome
-          </div>
-          <p>
+        <div class="info-text">
+          <div class="hero-title">This website is awesome</div>
+          <p class="hero-subtext">
             This website has some subtext that goes here under the main title.
-            It's a smaller font and color is lower contrast
           </p>
-          <button type="button">Sign Up</button>
+          <p>It's a smaller font and color is lower contrast</p>
+          <button class="btn btn-signup" type="button">Sign Up</button>
         </div>
-        <div class="item-2">This is a placeholder for an image</div>
+        <div class="info-image">This is a placeholder for an image</div>
       </section>
     </header>
 
     <main>
-      <section class="section-1"></section>
-
-      <section class="section-2">
-        <p>
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that it looks nice.
-        </p>
+      <section class="testimonials">
+        <div>
+          <blockquote>
+            <p>
+              This is an inspiring quote, or a testimonial from a <br />
+              customer. Maybe it's just filling up space, or maybe <br />
+              people will actually read it. Who knows? All I know <br />
+              is that it looks nice.
+            </p>
+          </blockquote>
+          <p>
+            <cite>-Thor, God of Thunder</cite>
+          </p>
+        </div>
       </section>
 
-      <section class="section-3"></section>
+      <section class="cta-section">
+        <div class="cta-box">
+          <p>Call to action! It's time!</p>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+
+          <button class="btn btn-signup"  type="button">Sign Up</button>
+        </div>
+      </section>
     </main>
 
     <footer>Copyright @ The Odin Project 2021</footer>
