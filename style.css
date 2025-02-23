@@ -16,7 +16,6 @@ header {
 
 .nav-container {
   display: flex;
-  border: 3px solid red;
   padding: 25px;
   margin: 5px 150px 30px 150px;
   align-items: center;
@@ -24,18 +23,15 @@ header {
 
 .info-container {
   display: flex;
-  border: 3px solid red;
   justify-content: center;
   align-items: center;
   padding: 25px;
   margin: 5px 150px 30px 150px;
 }
 
-
-
-.nav-logo{
+.nav-logo {
   font-size: 24px;
-  color: #F9FAF8;
+  color: #f9faf8;
   flex: 1;
 }
 
@@ -43,14 +39,11 @@ header {
   display: flex;
   gap: 15px;
   font-size: 18px;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
-
 
 .info-text {
   flex: 1;
-  margin: 0;
-  padding: 0;
 }
 
 .info-image {
@@ -64,13 +57,138 @@ header {
 .hero-title {
   font-size: 48px;
   font-weight: 900;
-  color: #F9FAF8;
-  margin-bottom: 0;
+  color: #f9faf8;
+  margin-bottom: 10px;
 }
 
 .hero-subtext {
   font-size: 18px;
-  color: #E5E7EB;
-  margin: 0;
+  color: #e5e7eb;
+  margin-bottom: 15px;
 }
 
+.btn-signup {
+  margin-top: 10px; /* Optional: Add space above the button */
+}
+
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rand-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  margin: 5px 150px 185px 150px;
+}
+
+.rand-info-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.rand-info-inner .header {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.inner-item {
+  flex: 1;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-item .box {
+  border-radius: 10px;
+  height: 135px;
+  width: 135px;
+  border: 2px solid lightblue;
+}
+
+.inner-item p {
+  font-size: 18px;
+}
+
+.cta-section {
+  display: flex;
+  border: 1px solid #3882F6;
+  border-radius: 5px;
+  padding: 50px 20px;
+  background-color: #3882F6;
+  margin: 5px 150px 60px 150px;
+  gap: 20px;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  color: #e5e7eb;
+}
+
+.cta-text  * {
+  flex: 1;
+  margin: 0px 35px 0px 0px;
+  padding-right: 85px;
+}
+
+.cta-section .btn.btn-signup {
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  color: #e5e7eb;
+  background-color: #3882F6;
+}
+
+.cta-header {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7Eb;
+  padding: 60px;
+  margin-bottom: 50px;
+  position: relative; /* Allow child elements to use absolute positioning */
+}
+
+blockquote > p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937; /* Fixed typo: columns -> color */
+  margin: 0; /* Remove extra margin */
+}
+
+p > cite {
+  position: absolute; /* Position citation relative to the parent container */
+  bottom: 10px; /* Adjust distance from the bottom */
+  right: 350px; /* Adjust distance from the right */
+  font-style: italic; /* Ensure the text is italic */
+  color: #1F2937; /* Match the blockquote text color */
+  margin: 0; /* Remove extra margin */
+  text-align: right; /* Align text within the citation */
+}
